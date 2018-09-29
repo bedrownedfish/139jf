@@ -1,0 +1,660 @@
+a{
+    color:#292b2c;
+    text-decoration:none
+}
+a:focus,a:hover{
+    color:#b82525;
+    text-decoration:none;
+}
+form{
+    margin-bottom: 0;
+}
+img{
+    max-width: 100% !important;
+}
+.input-group-addon{
+    min-width: 75px;
+    text-align: center;
+}
+.size-1{
+    font-size:.75rem !important;
+}
+.size-2{
+    font-size:.875rem !important;
+}
+.size-3{
+    font-size: 1.25rem !important;
+}
+.size-4{
+    font-size: 1.5rem !important;
+}
+.size-5{
+    font-size: 2rem !important;
+}
+.size-6{
+    font-size: 3rem !important;
+}
+.text-line-through{
+    text-decoration: line-through;
+}
+.upsideDown {
+    display: inline-block;
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+    filter:FlipV;
+}
+.text-truncate-multi-2{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.text-truncate-multi-3{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.line-height-1{
+    line-height: 1;
+}
+.text-field{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size:.875rem;
+}
+.text-field img{
+    max-width:100%;
+}
+.color-0 {
+    color : #b82525 !important;
+}
+.color-1 {
+    color: #ffffff !important;
+}
+.color-2 {
+    color: #1c1b21 !important;
+}
+.color-3 {
+    color: #ff6801 !important;
+}
+.color-4 {
+    color: #00bd00 !important;
+}
+.color-5 {
+    color: #ff7c7c !important;
+}
+.radius-0 {
+    border-radius: 3px !important;
+}
+.radius-1 {
+    border-radius: 1rem !important;
+}
+.radius-2 {
+    border-radius: 2rem !important;
+}
+.radius-3 {
+    border-radius: 3rem !important;
+}
+.radius-4 {
+    border-radius: 50% !important;
+}
+.half-gutters {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+.bordered-0 {
+    border: 1px #dddddd solid;
+}
+.bordered-1 {
+    border: 1px #ff7c7c dashed;
+}
+.bordered-t-0 {
+    border-top: 1px #dddddd solid;
+}
+.bordered-t-1 {
+    border-top: 1px #ff7c7c dashed;
+}
+.bordered-r-0 {
+    border-right: 1px #dddddd solid;
+}
+.bordered-r-1 {
+    border-right: 1px transparent solid;
+}
+.bordered-b-0 {
+    border-bottom: 1px #dddddd solid;
+}
+.bordered-l-0 {
+    border-left: 1px #dddddd solid;
+}
+.bordered-x-0 {
+    border-left: 1px #dddddd solid;
+    border-right: 1px #dddddd solid;
+}
+.bordered-y-0 {
+    border-top: 1px #dddddd solid;
+    border-bottom: 1px #dddddd solid;
+}
+.bordered-y-1 {
+    border-top: 1px #ff7c7c dashed;
+    border-bottom: 1px #ff7c7c dashed;
+}
+.bordered-b-1 {
+    border-bottom : 5px #eeeeee solid;
+}
+.bordered-b-2 {
+    border-bottom : 2px #eeeeee solid;
+}
+.bordered-b-3 {
+    border-bottom : 1px #ffffff solid;
+}
+.bordered-b-4 {
+    border-bottom : 1px #eeeeee dashed;
+}
+.bordered-last-b-0>a:last-child,
+.bordered-last-b-0>div:last-child{
+    border-bottom: none;
+}
+.checkbox-rounded{
+    position: relative;
+}
+.checkbox-rounded>input[type=checkbox] {
+    display: none;
+}
+.checkbox-rounded>input[type=checkbox] + label {
+    background-color: #FFF;
+    border: 2px #dddddd solid;
+    padding: .5rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+}
+.btn-0{
+    color: #fff;
+    background-color: #b82525;
+    border-color: #b82525;
+}
+.btn-1{
+    color: #b82525;
+    background-color: #ffffff;
+    border-color: #b82525;
+}
+.btn-2{
+    color: #292b2c;
+    background-color: #ffffff;
+    border-color: #292b2c;
+}
+.btn-3{
+    border-radius: 1.5rem;
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.btn-4{
+    color: #ffffff;
+    background-color: #42a324;
+    border-color: #42a324;
+}
+.btn-5{
+    color: #b82525;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-6{
+    color: #292b2c;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+.bg-gray{
+    /*background-color: #cccccc;*/
+    background-color: #f6f6f6;
+    color: #292b2c;
+}
+.bg-white{
+    background-color: #ffffff;
+    color: #292b2c;
+}
+.bg-red{
+    background-color: #b82525;
+    color: #ffffff;
+}
+.bg-main{
+    background-color: #263044;
+    color: #ffffff;
+}
+.bg-none,
+.bg-none:disabled,
+.bg-none[readonly]{
+    background:none;
+}
+.bg-none:focus{
+    border: none;
+    background: none;
+}
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    max-width: 75vw;
+}
+.bar-top,
+.bar-top-light,
+.bar-top-dark,
+.bar-top-transparent{
+    font-size: .875rem;
+}
+.bar-top>div,
+.bar-top-light>div,
+.bar-top-dark>div,
+.bar-top-transparent>div{
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+.bar-top>div>span:first-child,
+.bar-top-light>div>span:first-child,
+.bar-top-dark>div>span:first-child,
+.bar-top-transparent>div>span:first-child,
+.bar-top>div>a:first-child,
+.bar-top-light>div>a:first-child,
+.bar-top-dark>div>a:first-child,
+.bar-top-transparent>div>a:first-child{
+    position: absolute;
+    left: 0;
+    padding-left: 15px;
+}
+.bar-top.bar-btn>div>span:first-child,
+.bar-top-light.bar-btn>div>span:first-child,
+.bar-top-dark.bar-btn>div>span:first-child,
+.bar-top-transparent.bar-btn>div>span:first-child,
+.bar-top.bar-btn>div>a:first-child,
+.bar-top-light.bar-btn>div>a:first-child,
+.bar-top-dark.bar-btn>div>a:first-child,
+.bar-top-transparent.bar-btn>div>a:first-child{
+    position: relative;
+}
+.bar-top>div>a:nth-child(3),
+.bar-top-light>div>a:nth-child(3),
+.bar-top-dark>div>a:nth-child(3),
+.bar-top-transparent>div>a:nth-child(3){
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+.bar-top.bar-btn>div>a:nth-child(3),
+.bar-top-light.bar-btn>div>a:nth-child(3),
+.bar-top-dark.bar-btn>div>a:nth-child(3),
+.bar-top-transparent.bar-btn>div>a:nth-child(3){
+    position: relative;
+    right: 0;
+    padding-right: 15px;
+}
+.bar-top>div{
+    background-color: #263044;
+    color: #ffffff;
+}
+.bar-top-dark>div{
+    background-color: #1c1b21;
+    color: #ffffff;
+}
+.bar-top-light>div{
+    background-color: #ffffff;
+}
+.bar-top-light{
+    border-bottom: 1px #dddddd solid;
+}
+.bar-top-transparent>div{
+    background-color: transparent;
+    color: #fff;
+}
+.position-absolute{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+}
+.position-relative{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.bar-top-search input{
+    font-size: .875rem;
+    padding:.375rem .75rem;
+    border:none;
+    border-radius: 1rem;
+}
+.bar-top-search .input-group-addon{
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color:#ff796d;
+    font-size: 1.25rem;
+}
+.overlay,
+.overlay-transparent{
+    position: fixed;
+    background-color: rgba(0,0,0,.65);
+    top:0;
+    right:0;
+    bottom:0;
+    left: 0;
+    z-index: 9999;
+}
+.overlay-transparent{
+    background-color: rgba(0,0,0,0);
+}
+
+.loading{
+    display: none;
+}
+.loading>div{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    top:0;
+    right:0;
+    bottom:0;
+    left: 0;
+    width: 100%;
+}
+.loading>div>.overlay-transparent,
+.loading>div>.overlay{
+    z-index: -1;
+}
+.loading>div>div:not(.overlay):not(.overlay-transparent){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.65);
+    width: 130px;
+    height: 110px;
+    border-radius: 6px;
+}
+.loading>div>div>div{
+    text-align: center;
+    color: #ffffff;
+}
+.loading>div>div>span{
+    width: 37px;
+    height: 37px;
+    display: block;
+    background-image: url(../images/loading_sprite_white.png);
+    -webkit-background-size: auto 37px;
+    background-size : auto 37px;
+    -webkit-animation: am-rotate 1s steps(12) infinite;
+    animation: am-rotate 1s steps(12) infinite;;
+}
+@-webkit-keyframes am-rotate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -444px 0;
+    }
+}
+@keyframes am-rotate{
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -444px 0;
+    }
+}
+.title-1{
+    border-left:3px #b82525 solid;
+    padding-left: .5rem;
+    font-weight: 600;
+}
+.avatar{
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+}
+.avatar-1 {
+    max-width: 5rem;
+    max-height: 5rem;
+}
+.avatar-2 {
+    width: 25vw;
+    height:25vw
+}
+.avatar-3 {
+    width: 20vw;
+    height:20vw
+}
+.typeBadge{
+    color: #ffffff;
+    font-size: .75rem;
+    background-color: #507cea;
+    border-radius: .25rem;
+    padding:0 .25rem;
+}
+.authCode{
+    max-width: 100%;
+    max-height: 1.5rem;
+}
+.rating>img{
+    width: 1rem;
+}
+.fixed-goTop{
+    position: fixed;
+    bottom: 3.5rem;
+    right:0;
+}
+footer .active,
+footer .active a{
+    color: #b82525;
+}
+.tabs-static .active{
+    color: #b82525;
+}
+.tabs-1.nav-pills .nav-link.active{
+    background-color: #b82525;
+    color:#ffffff;
+}
+.tabs-1.nav-pills .nav-link{
+    border-radius: 0;
+    border:1px #b82525 solid;
+    color: #b82525;
+}
+.tabs-1.nav-pills .nav-link:first-child{
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.tabs-1.nav-pills .nav-link:last-child{
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.tabs-2.nav-pills .nav-link.active{
+    background: none;
+}
+.tabs-triangle .active:after{
+    bottom: -.5rem;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    left: 45%;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+.tabs-3.nav-pills .nav-link.active,
+.tabs-4.nav-pills .nav-link.active{
+    background:none;
+    color:#b82525;
+}
+.tabs-3.nav-pills .nav-link>span{
+    padding: .125rem;
+    border-bottom: 2px transparent solid;
+}
+.tabs-3.nav-pills .nav-link.active>span{
+    border-bottom: 2px #b82525 solid;
+}
+
+.tabs-4.nav-pills .nav-link{
+    border-radius: 0;
+    border-bottom: 2px transparent solid;
+}
+.tabs-4.nav-pills .nav-link.active{
+    border-bottom: 2px #b82525 solid;
+}
+ /*
+ <input type="checkbox" id="checkbox_c1" class="checkbox-1">
+ <label for="checkbox_c1"></label>
+ */
+.checkbox-1{
+    display: none;
+}
+.checkbox-1 + label {
+    background-color: #fafbfa;
+    padding: 9px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    width: 40px;
+    height: 15px;
+    margin-bottom: 0;
+}
+
+.checkbox-1  + label:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    box-shadow: inset 0 0 0 0 #eee, 0 0 1px rgba(0,0,0,0.4);
+}
+
+.checkbox-1  + label:before {
+    content: ' ';
+    position: absolute;
+    background: white;
+    top: 0px;
+    left: 1px;
+    z-index: 999999;
+    width: 17px;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    height: 17px;
+    border-radius: 100px;
+    box-shadow: 0 3px 1px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.3);
+}
+
+.checkbox-1:active + label:after {
+    box-shadow: inset 0 0 0 20px #eee, 0 0 1px #eee;
+}
+
+.checkbox-1:active + label:before {
+    width: 37px;
+}
+
+.checkbox-1:checked:active + label:before {
+    width: 37px;
+    left: 20px;
+}
+
+.checkbox-1  + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.checkbox-1:checked + label:before {
+    content: ' ';
+    position: absolute;
+    left: 26px;
+    border-radius: 100px;
+}
+
+.checkbox-1:checked + label:after {
+    content: ' ';
+    font-size: 1.5em;
+    position: absolute;
+    background: #b82525;
+    box-shadow: 0 0 1px #b82525;
+}
+/*
+中国建设银行——CCB
+中国农业银行——ABC
+中国工商银行——ICBC
+中国银行——BOC 1
+中国民生银行——CMBC
+招商银行 ——CMB
+兴业银行 ——CIB
+交通银行——BCM
+中国光大银行——CEB
+广东发展银行——GDB
+平安银行——PAB
+成都银行——BOCD
+*/
+.icon-icbc {
+    color: #bf1920;
+}
+.icon-ccb {
+    color: #003b8f;
+}
+.icon-abc {
+    color: #009174;
+}
+.icon-boc {
+    color: #972030;
+}
+.icon-bcm {
+    color: #1d2087;
+}
+.icon-cmbc {
+    color: #009b89;
+}
+.icon-cmb {
+    color: #a61f23;
+}
+.icon-cib {
+    color: #004186;
+}
+.icon-ceb {
+    color: #e6a500;
+}
+.icon-gdb {
+    color: #bc2026;
+}
+.icon-pab {
+    color: #ff3204;
+}
+.icon-bocd{
+    color: #f39800;
+}
+.icon{
+    width: 3.5rem;
+    height: 3.5rem;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.dropdown-1.show>.dropdown-menu{
+    background-color: #263044;
+    border-radius: 0;
+    min-width:inherit;
+}
+.dropdown-1.show>.dropdown-menu .dropdown-item{
+    color: #ffffff;
+    font-size: .75rem;
+    padding: 3px .625rem;
+}

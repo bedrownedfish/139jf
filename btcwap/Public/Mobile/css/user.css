@@ -1,0 +1,17 @@
+.signin-tabs>.active{
+    color: #ffffff;
+}
+.signin-tabs>.active:after{
+    bottom: -1rem;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    left: 50%;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+.signin-auth{
+    width: 30vw;
+}

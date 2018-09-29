@@ -1,0 +1,1 @@
+C:\phpStudy\php\php-5.5.38\php.exe -f  C:\phpStudy\WWW\run.php
